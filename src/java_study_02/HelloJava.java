@@ -6,5 +6,6 @@ public class HelloJava {
 		// TODO Auto-generated method stub
 		System.out.println("Hello JAVA!!!");
 		System.out.println("Git Commit");
+		System.out.println("Git Commit");
 	}
 }
