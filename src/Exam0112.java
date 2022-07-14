@@ -1,4 +1,3 @@
-package main.java.oop;
 
 public class Exam0112 {
 
