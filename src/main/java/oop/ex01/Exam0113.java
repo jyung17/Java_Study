@@ -1,4 +1,4 @@
-package main.java.oop;
+package main.java.oop.ex01;
 
 public class Exam0113 {
 
