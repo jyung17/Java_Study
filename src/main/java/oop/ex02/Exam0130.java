@@ -1,5 +1,8 @@
 package main.java.oop.ex02;
 
+// # 사용자 정의 데이터 타입 + 인스턴스 메서드
+
+
 public class Exam0130 {
 
   static class Score {
@@ -16,18 +19,16 @@ public class Exam0130 {
     }
   }
 
-
   public static void main(String[] args) {
     // TODO Auto-generated method stub
     Score s = new Score();
-    s.name = "Young";
+    s.name = "홍길동";
     s.kor = 100;
-    s.eng = 100;
-    s.math = 100;
+    s.eng = 90;
+    s.math = 85;
 
     s.calculate();
 
-    System.out.printf("%s: %d, %d, %d, %d, %.1f\n", s.name, s.kor, s.eng, s.math, s.sum, s.average);
+    System.out.printf("%s, %d, %d, %d, %d, %.1f\n", s.name, s.kor, s.eng, s.math, s.sum, s.average);
   }
-
 }
